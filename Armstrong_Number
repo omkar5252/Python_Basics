@@ -20,5 +20,3 @@ if (num == sum):
 
 else:
    print("Not Armstrong number")
-
-

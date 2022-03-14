@@ -1,0 +1,9 @@
+# Problem 4 : Find total number of student.
+
+football = 20                        # student like football is 20.
+badminton = 30                       # student like badminton is 30.
+both = 10                            # student like both is 10.
+x = 20                               # students not interested in any game is 20.
+
+total = football + badminton - both + x
+print("Total number of students are",total)

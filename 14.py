@@ -1,0 +1,10 @@
+# Problem 14 : Write a program to reverse three digit number.
+
+num = int(input("Enter 3 digit number: "))
+x = num % 10 
+q = num // 10
+y = q % 10
+z = q // 10
+
+reverse = x*100 + y*10 + z
+print("Reverse 3 digit number is",reverse)

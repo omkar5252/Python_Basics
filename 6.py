@@ -1,0 +1,7 @@
+# Problem 6 : Convert temp from Celsius to Fahrenheit. (C/5 = (F-32)/9)
+
+celsius = float(input("Enter temperature in celsius: "))
+
+f = celsius*1.8 + 32           # (C/5 = (F-32)/9)
+
+print("Temperature in fahrenheit: ",f)

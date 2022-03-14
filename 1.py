@@ -1,4 +1,4 @@
-# Problem 1 : calculate the percentage of student based on marks of any 5 subjects.
+# calculate the percentage of student based on marks of any 5 subjects.
 
 # Assume each subject is for 100 marks.
 m = int(input("Enter marks of Maths:"))

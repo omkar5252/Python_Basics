@@ -1,4 +1,4 @@
-# Problem 5 : Convert the time entered in hh,min and sec into seconds
+# Convert the time entered in hh,min and sec into seconds
 
 hh = int(input("Enter number of hours: "))
 min = int(input("Enter number of minutes: "))

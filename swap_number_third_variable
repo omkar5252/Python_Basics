@@ -1,4 +1,4 @@
-# Problem 12 : Assign two number and swap it using third variable.
+# Assign two number and swap it using third variable.
 
 x = int(input("x: "))
 y = int(input("y: "))

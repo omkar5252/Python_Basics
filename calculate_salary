@@ -1,4 +1,4 @@
-# Problem 10 :  calculate total salary of employee based on basic.
+# calculate total salary of employee based on basic.
 
 basic =float(input("Enter Basic salary:Rs."))
 da = basic*0.10

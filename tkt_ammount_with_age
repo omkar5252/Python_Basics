@@ -1,4 +1,4 @@
-# Problem 6 : calculate tkt_ammount with respect to age
+# calculate tkt_ammount with respect to age
 
 age1=int(input("Enter age of first person: "))
 age2=int(input("Enter age of second person: "))
@@ -32,7 +32,7 @@ elif (age3 >= 59):
     amt3 =tkt_price - (tkt_price * 0.5)
 else:
     amt3 = tkt_price
-
+    
 # Fourth person to pay
 if (age4 <= 12):
     amt4 =tkt_price - (tkt_price * 0.3)

@@ -1,4 +1,4 @@
-# Problem 9 :  calculate selling price of book based on cost price and discount.
+# calculate selling price of book based on cost price and discount.
 
 cost_price = float(input("Enter cost price of book:Rs."))
 discount = float(input("Enter discount :"))

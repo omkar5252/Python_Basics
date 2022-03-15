@@ -1,4 +1,4 @@
-# Problem 7 : Convert distant given in feet and inches into meter and centimeter.
+# Convert distant given in feet and inches into meter and centimeter.
 
 feet = float(input("Enter a value in feets: "))
 inch = float(input("Enter a value in inches: "))

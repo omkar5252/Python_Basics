@@ -1,4 +1,4 @@
-# Program 8 : calculate area of triangle and rectangle 
+# calculate area of triangle and rectangle 
 
 # Area of Traingle
 a = int(input("Enter fisrt side:"))

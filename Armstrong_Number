@@ -1,22 +1,25 @@
-#checked number is armstrong number or not
+checked number is armstrong number or not
 
 num=int(input("Enter Number:"))
-# here 1st loop is used for digit tobe calculated
-digit=0
-while(num > 0):
-    num = num//10
-    digit = digit + 1
+# here while loop is used to count digit of number 
+digit = 0
+temp = num
+while(temp > 0):
+   temp = temp // 10
+   digit = digit + 1
 
+# here we used for loop to checked number is greater than 0
 sum = 0
-digit = num
-while (num > 0):
-   digit = num % 10
-   num = num // 10
-   sum += digit ** digit
+temp = num
+for i in range(1,temp+1):
+    remainder = temp % 10
+    temp = temp // 10
+    sum = sum + remainder**digit
 
-# here we used condition to checked armstrong number or not  
+# here we used condition to checked number is armstrong or not
 if (num == sum):
-   print("Armstrong number")
-
+   print(num,"is armstrong number")
 else:
-   print("Not Armstrong number")
+   print(num,"is not Armstrong number")
+
+

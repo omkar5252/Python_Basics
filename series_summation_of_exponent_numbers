@@ -1,4 +1,4 @@
-# Problem 8b : addition of series of exponent numbers.
+# addition of series of exponent numbers.
 
 n = int (input("Enter n number:"))
 sum = 0

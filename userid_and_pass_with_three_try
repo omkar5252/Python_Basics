@@ -1,4 +1,4 @@
-# Problem 1 : user id and password 3 times try
+# user id and password 3 times try
  
 i = 1
 print("\nOnly 3 attempt for login")

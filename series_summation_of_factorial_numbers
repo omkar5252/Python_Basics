@@ -1,4 +1,4 @@
-#Problem 8a : addition of series of factorial numbers.
+# addition of series of factorial numbers.
 
 n = int(input("Enter n number:"))
 sum = 0

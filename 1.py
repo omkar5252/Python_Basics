@@ -1,0 +1,19 @@
+# Problem 1 : user id and password 3 times try
+ 
+i = 1
+print("\nOnly 3 attempt for login")
+while(i<=3):                                 
+    print("\nAttempt no:",i)
+    user_id = input("Enter your user id:")
+    password = input("Enter your password:")
+    i+=1
+
+# if user id and pass right then login, if not user has 3 chances.
+    if (user_id == "omkar_dorugade" and password=="12345"):
+        print("\nsucessfully login")
+        break
+else:
+    print("\nChecked your user id and password.")
+    print("3 attempt is over, Retry after few minutes.")
+
+

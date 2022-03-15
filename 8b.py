@@ -1,0 +1,10 @@
+# Problem 8b : addition of series of exponent numbers.
+
+n = int (input("Enter n number:"))
+sum = 0
+for i in range(1,n+1):
+    exponent = 1
+    for j in range(1,i+1):
+        exponent = i ** j
+    sum = sum + exponent
+print(sum)
